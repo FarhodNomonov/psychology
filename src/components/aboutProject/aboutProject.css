@@ -1,5 +1,9 @@
 .about {
   padding: 20px;
+  overflow-x: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .about_img {
   width: 150px;
@@ -22,10 +26,16 @@
   align-items: center;
   margin-top: 90px;
 }
-.slick-dots li button:before {
+.about_btn h3 {
+  color: rgba(0, 162, 255, 0.906);
+}
+.splash {
+  height: 100%;
+}
+.splash .slick-dots li button:before {
   font-size: 13px;
   color: rgba(0, 162, 255, 0.683);
 }
-.slick-dots li.slick-active button:before {
+.splash .slick-dots li.slick-active button:before {
   color: rgb(0, 170, 255);
 }
