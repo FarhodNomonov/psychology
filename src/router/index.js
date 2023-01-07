@@ -6,4 +6,5 @@ export const RootRoutes = [
     path: "/",
     element: <AboutProject />,
   },
+  
 ];
